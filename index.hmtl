@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Generador de números</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h1>Generador de números</h1>
-                <div id="numeros">
+                <div id="numeros" style="width: 200px; height: 200px; border: 1px solid black;">
                 </div>
-                <button id="generar">Generar</button>
+                <button id="generar" style="width: 200px; height: 50px; font-size: 18px; margin-top: 20px;">Generar</button>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
